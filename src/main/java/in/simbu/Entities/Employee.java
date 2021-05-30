@@ -25,6 +25,7 @@ public class Employee {
 		// TODO Auto-generated constructor stub
 	}
 
+	
 	public Employee(Integer empId, String empName, Double empSalary) {
 		super();
 		this.empId = empId;
