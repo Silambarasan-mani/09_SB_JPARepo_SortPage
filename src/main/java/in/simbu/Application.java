@@ -19,7 +19,7 @@ public class Application {
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
 		EmpRepository bean = context.getBean(EmpRepository.class);
 		
-	//	List<Employee> all = bean.findAll(Sort.by("empName"));
+	//	List<Employee> all = bean.findAll(Sort.by("empName"));  //
 	//	List<Employee> all = bean.findAll(Sort.by("empSalary").descending());
 	//	all.forEach(s -> System.out.println(s));
 		
